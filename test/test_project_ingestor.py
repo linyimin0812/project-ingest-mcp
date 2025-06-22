@@ -1,7 +1,7 @@
 import asyncio
 
 
-from src.ProjectIngestor import ProjectIngestor
+from src.project_ingestor import ProjectIngestor
 
 
 async def print_project_ingest_info(name: str):

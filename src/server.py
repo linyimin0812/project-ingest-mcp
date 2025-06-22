@@ -3,7 +3,7 @@ from typing import Dict
 
 from fastmcp import FastMCP, Client
 
-from src.ProjectIngestor import ProjectIngestor
+from src.project_ingestor import ProjectIngestor
 
 mcp = FastMCP("project-ingest-mcp")
 
